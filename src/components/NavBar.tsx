@@ -129,7 +129,7 @@ function NavBar() {
                         <SheetHeader>
                             <SheetTitle></SheetTitle>
                             <SheetDescription>
-                                <h1 className='mb-6 text-2xl font-bold text-white/90'>Free Services</h1>
+                                <h1 className='mb-6 text-2xl font-bold dark:text-white/90 text-black/90'>Free Services</h1>
                                 <AnimatedList className='mx-3'>
                                     <Link005 className='w-auto' href={'https://deepboards.abhyudaya.space/'}>
                                         <TextAnimate className='py-1 text-lg' animation='slideRight'>
@@ -200,3 +200,4 @@ function NavBar() {
 }
 
 export default NavBar;
+
