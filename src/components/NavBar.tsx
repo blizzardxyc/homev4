@@ -91,6 +91,8 @@ function NavBar() {
                             alt='logo'
                             width={100}
                             height={100}
+                            draggable={false}
+                            onContextMenu={(e) => e.preventDefault()}
                             className='h-12 w-12 rounded-full transition-all hover:scale-110'
                         />
                     </Link>
